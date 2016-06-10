@@ -24,7 +24,7 @@ ENV JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre
 
 #Copy files and compile build
 COPY / /fabricbuild/
-RUN tar -xf /fabricbuild/fabric.prereqs/Jetty/jetty-distribution-9.2.9.v20150224.tar.gz -C /fabricbuild/fabric.prereqs/Jetty/
+#RUN tar -xf /fabricbuild/fabric.prereqs/Jetty/jetty-distribution-9.2.9.v20150224.tar.gz -C /fabricbuild/fabric.prereqs/Jetty/
 RUN ant -q -f /fabricbuild/fabric.build/build_local.xml
 
 #Copy build to our fabric directory and expand
