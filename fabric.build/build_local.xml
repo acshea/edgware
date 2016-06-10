@@ -642,7 +642,7 @@
 	<!--============================================================================-->
 	<target name="create.web" description="Creates the .war containing Fabric web tools">
 		
-		<mkdir dir="${project-bin.fabric.tools.rest}" />
+		<mkdir dir="${staging.fabric.web.tmp}/WebContent/WEB-INF/classes" />
 		<javac srcdir="${project-src.fabric.tools.rest}/src" destdir="${staging.fabric.web.tmp}/WebContent/WEB-INF/classes" classpath="${classpath.jetty}" debug="true" debuglevel="lines,vars,source" source="${fabric.javacSource.version}" target="${fabric.javacTarget.version}" includeAntRuntime="false" />
 
 		<!-- Project: fabric.tools.rest -->
