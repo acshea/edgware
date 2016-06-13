@@ -93,7 +93,7 @@ path.link {
 }
 
 .popup rect {
-  fill: blue;
+  fill: green;
   stroke: black;
   stroke-width: 1.5px;
   opacity: 1;
@@ -101,6 +101,6 @@ path.link {
 }
 
 .popup text {
-   fill: red;
+   fill: white;
    font-weight: bold; 
 }
