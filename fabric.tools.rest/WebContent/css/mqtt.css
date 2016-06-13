@@ -77,17 +77,18 @@ a:hover {
 .node circle {
   cursor: pointer;
   fill: #fff;
-  stroke: steelblue;
+  stroke: green;
   stroke-width: 1.5px;
 }
 
 .node text {
-  font-size: 11px;
+  font-size: 14px;
+  text-shadow: 0 0px 0px #DDD, 0px 0 0px #DDD, 0 -0px 0px #DDD, -0px 0 0px #DDD, 0px 0px 0px #DDD, -0px -0px 0px #DDD, 0px -0px 0px #DDD, -0px 0px 0px #DDD;
 }
 
 path.link {
   fill: none;
-  stroke: #ccc;
+  stroke: #888;
   stroke-width: 1.5px;
 }
 
